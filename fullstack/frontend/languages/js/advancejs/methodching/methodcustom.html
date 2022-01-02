@@ -1,0 +1,20 @@
+<script>
+
+
+    class Emp{
+        constructor(name){
+            this.name=name
+        
+        }
+        login(){
+            console.log(`${this.name} just loged in`)
+            return this
+        }
+        logout(){
+            console.log(`${this.name} just loged out`)
+        }
+    }
+    var Jiju=new Emp('jiju')
+    Jiju.login().logout()
+
+</script>

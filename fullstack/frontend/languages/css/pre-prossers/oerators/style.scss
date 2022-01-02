@@ -1,0 +1,152 @@
+@import 'colors';
+
+
+//mixin and incude
+
+//parameters  
+
+
+@mixin common($fz){
+    background-color: $cog;
+        font-weight: 600;
+        font-size: $fz;
+}
+
+.root{
+    #ch1{
+        @include common(40px);
+       
+    }
+    #ch2{
+        @include common(30px);
+        
+    }
+    #ch3{
+        @include common(60px);
+        
+    }
+    #ch4{
+        @include common(70px);
+        
+    }
+    #ch5{
+        @include common(90px);
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// //mixin and incude
+// $bc:rgb(72, 255, 0);
+
+// @mixin common{
+//     background-color: $bc;
+//         font-weight: 600;
+// }
+
+// .root{
+//     #ch1{
+//         @include common;
+//         font-size: 50px;
+//     }
+//     #ch2{
+//         @include common;
+//         font-size: 40px;
+//     }
+//     #ch3{
+//         @include common;
+//         font-size: 30px;
+//     }
+//     #ch4{
+//         @include common;
+//         font-size: 70px;
+//     }
+//     #ch5{
+//         @include common;
+//         font-size: 90px;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//variables
+// $bc:rgb(72, 255, 0);
+// .root{
+//     #ch1{
+//         background-color: $bc;
+//         font-size: 50px;
+//     }
+//     #ch2{
+//         background-color: $bc;
+//         font-size: 40px;
+//     }
+//     #ch3{
+//         background-color: $bc;
+//         font-size: 30px;
+//     }
+//     #ch4{
+//         background-color: $bc;
+//         font-size: 70px;
+//     }
+//     #ch5{
+//         background-color: $bc;
+//         font-size: 90px;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//operator
+
+h1{
+    background-color: red;
+        font-size: 40px+40px;
+}
+
+
+
+//nesting
+#parent{
+    h1{font-size: 60px;
+        background-color: red;}
+    #child1{
+        p{background-color: green;}
+    }
+    #child{
+        span{ background-color: green;}
+    }
+}
+
+

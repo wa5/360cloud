@@ -1,0 +1,28 @@
+<div id="root"></div>
+<a href="objects.html">hghghg</a>
+<script>
+
+
+class Humans{
+    constructor(emotion){
+        this.eyes=2
+        this.emotion=emotion
+    }
+    watch(){
+        console.log(`people can watch with ${this.eyes}`)
+    }
+}
+
+var ishan=new Humans("happy")
+console.log(ishan)
+ishan.watch()
+
+var name="hello"
+console.log(name)
+var name2=new String("hello world")
+
+
+
+console.log(name2.toUpperCase())
+document.getElementById("root").innerHTML=name2.bold()
+</script>

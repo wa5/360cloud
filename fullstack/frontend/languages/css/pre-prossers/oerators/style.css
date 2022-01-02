@@ -1,0 +1,48 @@
+.root #ch1 {
+  background-color: green;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.root #ch2 {
+  background-color: green;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.root #ch3 {
+  background-color: green;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.root #ch4 {
+  background-color: green;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.root #ch5 {
+  background-color: green;
+  font-weight: 600;
+  font-size: 90px;
+}
+
+h1 {
+  background-color: red;
+  font-size: 80px;
+}
+
+#parent h1 {
+  font-size: 60px;
+  background-color: red;
+}
+
+#parent #child1 p {
+  background-color: green;
+}
+
+#parent #child span {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

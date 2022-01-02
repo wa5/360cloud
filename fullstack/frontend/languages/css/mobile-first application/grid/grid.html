@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      <style>
+
+          .container{
+              display: grid;
+              grid-gap: 20px;
+              border: 2px solid black;
+              /* grid-template-columns: repeat(3,1fr) ;
+              grid-template-rows: 200px 200px; */
+              /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+               grid-template-columns: repeat(3,1fr);
+              grid-template-rows: repeat(2,200px);
+          }
+
+          #box{
+              background-color: red;
+              border: 3px solid black;
+              
+              font-size: 50px;
+              color: white;
+          }
+
+          .box2{
+              grid-column-start: 1;
+              grid-column-end: 2;
+              grid-row-start: 2;
+              grid-row-end: 3;
+          }
+          .box{}
+      </style>
+      
+<div class="container">
+    <div id="box" class="box1">Box 1</div>
+    <div id="box" class="box2">Box 2</div>
+    <div id="box" class="box3">Box 3</div>
+    <div id="box" class="box4">Box 4</div>
+    <div id="box" class="box5">Box 5</div>
+</div>
+
+
+
+
+    </body>
+</html>

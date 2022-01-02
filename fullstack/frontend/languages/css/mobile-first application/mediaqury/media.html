@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+<style>
+    h1{
+        background-color: red;
+        font-size: 60px;
+        color:white;
+        display: none;
+    }
+
+
+    @media (max-width:300px){
+        #mobile{
+            display: block;
+            background-color: green;
+        }
+    }
+    @media (min-width:300px) and (max-width:700px){
+        #tab{
+            display: block;
+            background-color: blue;
+        }
+    }
+    @media (min-width:701px) and (max-width:900px){
+        #desktop{
+            display: block;
+            background-color: chartreuse;
+        }
+    }
+
+    @media (min-width:901px){
+        #largetv{
+            display: block;
+            background-color: cyan;
+        }
+    }
+</style>
+
+<div id="container">
+    <h1 id="mobile">mobile screen  300px</h1>
+    <h1 id="tab">tab screen 3001 ends 700px</h1>
+    <h1 id="desktop"> desktop start fromm 701 to 900px</h1>
+    <h1 id="largetv"> large tv start from 9001 </h1>
+</div>
+
+        
+        <script ></script>
+    </body>
+</html>
