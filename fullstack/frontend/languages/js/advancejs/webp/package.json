@@ -1,0 +1,16 @@
+{
+  "name": "webp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "burgar": "webpack"
+  },
+  "keywords": [],
+  "author": "wa5",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

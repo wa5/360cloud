@@ -1,0 +1,42 @@
+<script>
+    //POLY MORPHISUM--MANY FORMS
+//over loding--same class with same method  names with diffet arguments
+//overriding----same name of the property parent and child
+    class Human{
+        constructor(){
+            this.eyes=2
+            this.nose=1
+            this.hands=2
+        }
+        honesty(){
+            console.log()
+        }
+        skils(){
+            console.log('eat')
+        }
+    }
+    
+    //singl level 
+    
+    class Khusbu extends Human{
+        skils(){
+            console.log('eat watch tv at a time')
+        }
+    }
+    
+    //multi level inharitance
+    class Priaynka extends Khusbu{
+        skils(a){
+            console.log(`eat watch tv at a time drinking-water ${a}`)
+        }
+        skils(){
+            console.log('extra skills')
+        }
+    }
+    
+    let p1=new Khusbu()
+    //p1.skils()
+    let p2=new Priaynka()
+    p2.skils('balabala')
+    
+    </script>

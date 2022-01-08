@@ -1,0 +1,1 @@
+(()=>{var r={202:()=>{}},o={};function e(t){var s=o[t];if(void 0!==s)return s.exports;var n=o[t]={exports:{}};return r[t](n,n.exports,e),n.exports}(()=>{"use strict";var r=e(202);console.log("burgar"),console.log(r.greeting)})()})();
