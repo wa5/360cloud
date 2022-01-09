@@ -13,24 +13,10 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
+        <div id="root">
+
+        </div>
         
-<div id="root"></div>
-<button onclick="dip()">click on me to cee  ny image</button>
-
-        <script >
-function dip(){
-    fetch('https://api.github.com/users').then((data2)=>{
-    data2.json().then((data3)=>{
-        console.log(data3[1].avatar_url)
-      
-    }).catch((er)=>{
-        console.log(er)
-    })
-})
-
-}
-
-
-        </script>
+        <script src="" async defer></script>
     </body>
 </html>
