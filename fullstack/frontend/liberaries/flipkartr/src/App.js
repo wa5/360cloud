@@ -6,6 +6,7 @@ import Curd from './pages/Curd';
 import Login from './pages/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hookspage from './pages/Hookspage';
+import WebCamp from './components/webcamp/WebCamp';
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path="/curd" element={<Curd />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/hook" element={<Hookspage />} />
+                    <Route path="/webcamp" element={<WebCamp />} />
                 </Routes>
             </Router>
         </>
