@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Curd1 from '../components/api/Curd1';
 import Navbar1 from '../components/navbar/caintainers/Navbar1';
 
 function Curd() {
@@ -15,7 +16,7 @@ function Curd() {
                 <br />
                 <Row>
                     <Col>
-                        <h1>im soome information</h1>
+                        <Curd1 />
                     </Col>
                 </Row>
 
