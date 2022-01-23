@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Otp from '../components/auth/Otp';
 import Navbar1 from '../components/navbar/caintainers/Navbar1';
 
 function Login() {
@@ -15,7 +16,7 @@ function Login() {
                 <br />
                 <Row>
                     <Col>
-                        <h1>im soome information</h1>
+                        <Otp />
                     </Col>
                 </Row>
 

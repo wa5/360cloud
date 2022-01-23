@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hookspage from './pages/Hookspage';
 import WebCamp from './components/webcamp/WebCamp';
+import StyledComp from './pages/StyledComp';
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/hook" element={<Hookspage />} />
                     <Route path="/webcamp" element={<WebCamp />} />
+                    <Route path="/styled" element={<StyledComp />} />
                 </Routes>
             </Router>
         </>

@@ -9,9 +9,10 @@ function WebCamp() {
 
     return (
         <>
-            <h1>hello</h1>
+            <Webcamp1 />
+            {/* <h1>hello</h1>
             <Webcamp1 screenshotFormat="image/jpeg" ref={webref} />
-            <button onClick={showimage}>clickme</button>
+            <button onClick={showimage}>clickme</button> */}
         </>
     );
 }
