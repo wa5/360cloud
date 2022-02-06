@@ -1,8 +1,14 @@
-const getLogin=(req, res) => {
+var {savinguSerData,gettingUserData}=require('../services/uses.service')
+var {sendmail}=require('../utility/sendingmail.utility')
+const getLogin=async (req, res) => {
 
 console.log(req.query)
-
-    res.render('login',{name:req.query.name,email:req.query.email,password:req.query.password});
+var name=req.query.name;
+var email=req.query.email
+var password=req.query.password
+savinguSerData(name,email,password)
+sendmail(email)
+    res.render('login',{name:name,email:email,password:password});
   }
 const putLogin=(req, res) => {
     res.send("thank u for putting");
